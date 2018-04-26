@@ -1,0 +1,1 @@
+Fun student project on pascal realizing primitive vector graphic 2D animation
