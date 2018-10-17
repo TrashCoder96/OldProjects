@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{509c4074-1968-4f02-9cdb-2ebf985aa77e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{78103994-520b-4f7d-9fbf-6845dea56cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Shapes">
+      <UniqueIdentifier>{6494d399-0c70-476a-b662-2a8d54726a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Utils">
+      <UniqueIdentifier>{6d54f8e3-8e36-4d91-901f-e033ef59d760}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\widgets.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Shapes\circle.cpp">
+      <Filter>Src\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Shapes\line.cpp">
+      <Filter>Src\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Shapes\rect.cpp">
+      <Filter>Src\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Shapes\shape.cpp">
+      <Filter>Src\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Shapes\circle.h">
+      <Filter>Src\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Shapes\line.h">
+      <Filter>Src\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Shapes\rect.h">
+      <Filter>Src\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Shapes\shape.h">
+      <Filter>Src\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Utils\random.h">
+      <Filter>Src\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

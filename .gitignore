@@ -1,0 +1,17 @@
+# ignore binary files
+DShapesWinApi/packages
+DShapesWinApi/x64
+x64/Debug
+x64/Release
+x64
+DShapesWinApi/bin
+DShapesWinApi/obj
+
+#ignore hidden .vs folders
+.vs
+
+# ignore folder "debug"
+debug
+
+# ignore folder "documents"
+Documents
